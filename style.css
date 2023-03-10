@@ -1,0 +1,112 @@
+.index-page {
+  background-color: #2f1893;
+  height: 100vh;
+}
+.main-logo {
+  font-size: 23px;
+  font-weight: 900;
+}
+.header {
+  padding: 2rem 0;
+}
+.main-head {
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.navbar {
+  padding: 0;
+}
+.head-para {
+  font-size: 1.4rem;
+  margin: 1.7em auto 2.6em;
+}
+.nav-btn,
+.btn {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+}
+.index-page .nav-btn {
+  padding: 0.6em 1.1em;
+  background-color: #482be7;
+}
+.index-page .nav-btn:hover {
+  background-color: #472be7cb;
+}
+.heading {
+  width: 70%;
+}
+.home-email {
+  border: 2px solid gray;
+  border-radius: 100px;
+  outline: none;
+  font-size: 1.25rem;
+  padding: 0.67em 1.1em;
+  background-color: transparent;
+  vertical-align: bottom;
+  color: white;
+}
+.send-btn {
+  background-color: #25dac5;
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  max-width: 5.7em;
+  border-radius: 100px;
+}
+.comply {
+  font-size: 1.1rem;
+  color: gray;
+}
+@media screen and (max-width: 998px) {
+  :root {
+    font-size: 0.85rem;
+  }
+  .header {
+    padding: 1.5vh 0;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .main-head {
+    font-size: 3.5rem;
+  }
+  .heading {
+    width: 100%;
+  }
+  .head-para {
+    margin: 1em auto;
+  }
+  .home-email {
+    width: 70%;
+    display: block;
+    margin: 0 auto 1em;
+    min-width: 250px;
+  }
+}
+
+@media screen and (min-height: 700px) {
+  body {
+    line-height: 1.8;
+  }
+
+  .header {
+    padding: 3vh 0;
+  }
+  .comply {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-height: 700px) and (max-width: 578px) {
+  body {
+    line-height: 1.8;
+  }
+  .send-btn {
+    margin: 2.5rem auto;
+  }
+}
+/* Header 2 */
